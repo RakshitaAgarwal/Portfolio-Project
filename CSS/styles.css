@@ -1,0 +1,185 @@
+/* .....................Element Selector .................. */
+
+/* text-align: center;  will align everything center, except anything that has a width set. */
+body{
+    background-color: white;
+    color:#40514E;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+}
+
+/* font-size = 100% = 16px = 1em; */
+/* to set block element with a particular width align center, use margin auto */
+/* Shorthhands for margin:
+   * margin: top right bottom left;
+   * margin: top/bottom left/right; */
+h1{
+   font-family: 'Sacramento', cursive;
+   font-style: italic;
+   font-size:5.625rem;
+   color:#66BFBF;
+   display:inline-block;
+   margin: 50px auto 0 auto;
+   /* margin: 0 auto; */
+   line-height:1;
+}
+
+h2{
+    color:#66BFBF;
+    font-family:'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-top:5%;
+}
+
+h3{
+    color:#11999E;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+a{
+    color:#11999E;
+    margin: 30px;
+    text-decoration: none;
+    font-style: bold;
+}
+a:hover{
+    color:#10878b;
+}
+
+hr{
+    color:whitesmoke;
+    border-style:dotted none none none;
+    width:10%;
+    border-width: 10px;
+}
+
+/* .....................Class Selector .................. */
+
+.top-container{
+    background-color: #EAF6F6;
+    position:relative;
+    padding-top: 100px;
+}
+
+.about-line{
+    margin-top:1%;
+    margin-bottom:5%;
+    font-size:1rem;
+    line-height:1;
+}
+
+.top-cloud{
+    position:absolute;
+    top:50px;
+    right:300px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:42%;
+}
+
+.mountain{
+    width:60%;
+}
+
+.profile img{
+    width:15%;
+    margin-top:5%;
+}
+
+.about{
+    width:30%;
+    margin: 0 auto 50px auto;
+    /* line-height: 2; */
+}
+
+.skill-row{
+    text-align: left;
+    width:50%;
+    margin:60px auto 100px auto;
+    /* line-height: 2; */
+}
+
+.skill-img1{
+    width:20%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-img2{
+    width:20%;
+    float: right;
+    margin-left:20px
+}
+.contact-heading{
+    width:50%;
+    margin: 0 auto 20px auto;
+    /* line-height: 2; */
+}
+
+.contact-para{
+    width:45%;
+    margin: 0 auto 50px auto;
+    /* line-height: 2; */
+}
+.span{
+    font-style: italic;
+}
+
+.button{
+    background-color:#11999E ;
+    color:white;
+    border-radius:10px;
+    text-decoration: none;
+    font-style: bold;
+    font-family:'Montserrat', sans-serif;
+    padding:20px;
+    margin: 3% auto;
+}
+
+.button:hover{
+    background-color:#10878b;
+    color: white;
+}
+
+.bottom-container{
+    margin:80px auto 0 auto;
+    background-color:#66BFBF;
+    padding:30px 10px 10px 10px;
+    /* line-height: 2; */
+}
+.copyright{
+    color:#EAF6F6;
+    font-size:0.75rem;
+}
+
+/* .container{
+    position:relative;
+}
+.container1{
+    position:absolute;
+    left:200px;
+    top:200px;
+    height:100px;
+    width:100px;
+    background-color: red;
+}
+.container2{
+    position:absolute;
+    left:100px;
+    top:100px;
+    height:100px;
+    width:100px;
+    background-color: blue;
+}
+.container3{
+    position:absolute;
+    height:100px;
+    width:100px;
+    background-color: yellow;
+} */
